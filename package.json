@@ -1,0 +1,26 @@
+{
+  "name": "teste-front-end",
+  "version": "1.0.0",
+  "description": "Este teste consiste no desenvolvimento de uma landing, baseada em um layout de apresentação de um app fictício, cujo link de download foi enviado por email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaAndradee/teste-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaAndradee/teste-front-end/issues"
+  },
+  "homepage": "https://github.com/RafaAndradee/teste-front-end#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "imagemin": "^5.3.1"
+  }
+}

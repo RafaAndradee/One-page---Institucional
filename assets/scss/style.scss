@@ -1,0 +1,65 @@
+$primary-color: #41ceb3;
+$titlegeneral: #454c55;
+$h1color: #454c55;
+
+%titleh1{
+  font-family: Dosis;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: $h1color;
+
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  font-family: dosis;
+  font-weight: 500;
+  color: $titlegeneral
+}
+
+.navbar-expand-lg {
+
+}
+
+
+/***HERO***/
+h1{
+
+  @extend %titleh1;
+  text-align: center;
+  vertical-align: middle;
+
+  &:hover{
+    color: #fff;
+  }
+}
+
+.wraph1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.botaoheader {
+    text-align: center;
+}
+
+.hero {
+    background: url("../img/hero.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+
+
+/***SOBRE***/
+
+  .iphone {
+    width: 668px;
+    height: 505px;
+    mix-blend-mode: undefined;
+  }
